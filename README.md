@@ -1,8 +1,5 @@
-# Webserver Baustein für das TFDP Tutorial
+# terraform-azurerm-webserver
 
-Ein einfacher Baustein um für das [Entwicklungstutorial](https://tlanding-tfdpmp-etu.apps.caas-ekad-test03.rz.bankenit.de/docs/automation/getting_started/tutorial.html) einen Nginx Webserver zu starten. Der Server hostet die Dateien im in den Parametern übergebenen Fileshare.
-
-Der Terraform Code in diesem Baustein ist für den Einstieg möglichst einfach gehalten und entspricht nicht allen Atruvia Sicherheitsstandards für Produktionsumgebungen. Deshalb bitte nicht in anderen Produkten außerhalb des Tutorials verwenden.
 
 ## Requirements
 
