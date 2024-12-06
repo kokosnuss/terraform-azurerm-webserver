@@ -6,3 +6,8 @@ terraform {
     }
   }
 }
+
+provider "azurerm" {
+  resource_provider_registrations = "none"
+  storage_use_azuread             = var.azurerm_storage_use_azuread
+}

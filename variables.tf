@@ -13,3 +13,8 @@ variable "storage_account_name" {
   description = "Name des Stroage ASccounts von dem Dateien gehostet werden sollen"
 }
 
+variable "azurerm_storage_use_azuread" {
+  type        = bool
+  default     = true
+  description = "Should the AzureRM Provider use AzureAD to connect to the Storage Blob & Queue APIs, rather than the SharedKey from the Storage Account"
+}
